@@ -1,11 +1,11 @@
-import HelloWorld from "./components/HelloWorld";
+import Background from "./components/Background";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <HelloWorld 
-        int = {1}
-      />
+    <div>
+      <Navbar />
+      <Background />
     </div>
   );
 }
