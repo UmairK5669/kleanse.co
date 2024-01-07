@@ -5,7 +5,7 @@ function Background() {
   return (
     <div className='main'>
         <h1>Kleanse</h1>
-        <span>"Some quote"</span>
+        <span>"A Khan Company"</span>
     </div>
   )
 }

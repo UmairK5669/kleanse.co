@@ -6,13 +6,16 @@ function ListingCard({
     img,
     subtitle,
     alt,
-    index
+    price
 }) {
   return (
     <div className='listing-card-outer'>
         <img className='main_image' src={img} alt={alt}></img>
-        <h2 className='title'>{title}</h2>
-        <span>{subtitle}</span>
+        <div className='text-listing-card'>
+          <h2 className='title'>{title}</h2>
+          <span>{subtitle}</span>
+          <span>{price}</span>
+        </div>
     </div>
   )
 }

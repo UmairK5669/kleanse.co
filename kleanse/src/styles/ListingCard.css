@@ -1,0 +1,25 @@
+.listing-card-outer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s all ease-in-out;
+}
+
+img {
+    border-radius: 7.5px;
+}
+
+.text-listing-card {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.listing-card-outer:hover {
+    transform: scale(1.1);
+}
